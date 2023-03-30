@@ -12,7 +12,7 @@
 
 -------
 
-![image](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/blob/main/screenshot2023-03-30 23.10.37.webp)
+![image](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/blob/main/screenshot.webp)
 
 ## 引导说明
 ### 电源管理（ACPI）
