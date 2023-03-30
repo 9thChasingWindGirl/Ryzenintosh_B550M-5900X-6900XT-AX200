@@ -56,6 +56,7 @@ PAT patch方式在该引导文件中使用Shaneee的补丁（解决infuse低帧�
 
 ### 杂项（Misc）
 引导文件中“configooo.plist”为去掉跑码和opencore选单，“configvp.plist”为跑码和显示opencore选单（30秒超时）；
+
 **！：** 初次使用建议使用“configvp.plist”（**更名“configvp.plist”为“config.plist”**）
 
 ### 机型（Platforminfo）
