@@ -1,4 +1,4 @@
-# OPENcore版本 0.9.0
+# OPENCORE 版本 0.9.0
 ## 硬件情况
 * 主板：华硕 TUF GAMING B550M-ZAKU (WI-FI)
 * 处理器：AMD Ryzen9 5900X
@@ -11,6 +11,8 @@
 > 目前运行系统版本：macOS Ventura 13.3
 
 -------
+
+![](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/blob/main/screenshot2023-03-30 23.10.37.webp)
 
 ## 引导说明
 ### 电源管理（ACPI）
@@ -61,6 +63,8 @@ PAT patch方式在该引导文件中使用Shaneee的补丁（解决infuse低帧�
 2. 无法使用隔空投送；
 3. 蓝牙文件传送无法使用；
 4. 连续互通相机需有线连接。
+
+# 更新的引导文件在Release下载
 
 ## 相关链接
 1. [https://dortania.github.io/getting-started/（opencore官方指导）](https://dortania.github.io/getting-started/)
