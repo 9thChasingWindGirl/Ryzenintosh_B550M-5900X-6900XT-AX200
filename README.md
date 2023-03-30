@@ -1,4 +1,7 @@
 # OPENCORE 版本 0.9.0
+## 转换语言
+- **简体中文**
+- [English](/README_EN.md)
 ## 硬件情况
 * 主板：华硕 TUF GAMING B550M-ZAKU (WI-FI)
 * 处理器：AMD Ryzen9 5900X
