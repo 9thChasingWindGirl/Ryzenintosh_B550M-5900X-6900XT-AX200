@@ -1,1 +1,0 @@
-# Ryzenintosh_B550M-5900X-5700XT-AX200
