@@ -64,7 +64,7 @@ PAT patch方式在该引导文件中使用Shaneee的补丁（解决infuse低帧�
 3. 蓝牙文件传送无法使用；
 4. 连续互通相机需有线连接。
 
-# 更新的引导文件在Release下载
+# 更新的引导文件在[Release](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/releases)下载
 
 ## 相关链接
 1. [https://dortania.github.io/getting-started/（opencore官方指导）](https://dortania.github.io/getting-started/)
