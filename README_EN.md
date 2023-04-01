@@ -71,7 +71,7 @@ Change the product model name you need and generate seria number.
 # The updated EFI file is downloaded in [Release](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/releases)
 
 ## Related Links
-1. https://dortania.github.io/getting-started/[（opencore官方指导）](https://dortania.github.io/getting-started/)
-2. https://apple.sqlsec.com/ [国光黑苹果](https://apple.sqlsec.com/)
-3. https://space.bilibili.com/16323318?spm_id_from=333.337.0.0 [大头蔡Cass](https://space.bilibili.com/16323318?spm_id_from=333.337.0.0)
-4. https://www.youtube.com/@casstsai [大头蔡Cass](https://www.youtube.com/@casstsai)
+1. [https://dortania.github.io/getting-started/（opencore官方指导）](https://dortania.github.io/getting-started/)
+2. [https://apple.sqlsec.com/ （国光黑苹果）](https://apple.sqlsec.com/)
+3. [https://space.bilibili.com/16323318?spm_id_from=333.337.0.0 （大头蔡Cass）](https://space.bilibili.com/16323318?spm_id_from=333.337.0.0)
+4. [https://www.youtube.com/@casstsai （大头蔡Cass）](https://www.youtube.com/@casstsai)
