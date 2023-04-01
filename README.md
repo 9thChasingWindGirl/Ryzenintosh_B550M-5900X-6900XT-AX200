@@ -72,7 +72,7 @@ PAT patch方式在该引导文件中使用Shaneee的补丁（解决infuse低帧�
 
 ## 相关链接
 1. [https://dortania.github.io/getting-started/（opencore官方指导）](https://dortania.github.io/getting-started/)
-2. [https://apple.sqlsec.com/ 国光黑苹果](https://apple.sqlsec.com/)
-3. [https://space.bilibili.com/16323318?spm_id_from=333.337.0.0 大头蔡Cass](https://space.bilibili.com/16323318?spm_id_from=333.337.0.0)
-4. [https://www.youtube.com/@casstsai 大头蔡Cass](https://www.youtube.com/@casstsai))
+2. [https://apple.sqlsec.com/ （国光黑苹果）](https://apple.sqlsec.com/)
+3. [https://space.bilibili.com/16323318?spm_id_from=333.337.0.0 （大头蔡Cass）](https://space.bilibili.com/16323318?spm_id_from=333.337.0.0)
+4. [https://www.youtube.com/@casstsai （大头蔡Cass）](https://www.youtube.com/@casstsai)
 
