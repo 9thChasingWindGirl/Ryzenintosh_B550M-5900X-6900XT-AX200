@@ -73,5 +73,5 @@ Change the product model name you need and generate seria number.
 ## Related Links
 1. [https://dortania.github.io/getting-started/（opencore documents）](https://dortania.github.io/getting-started/)
 2. [https://apple.sqlsec.com/ 国光黑苹果](https://apple.sqlsec.com/)
-
+3. [https://space.bilibili.com/16323318?spm_id_from=333.337.0.0 大头蔡Cass](https://space.bilibili.com/16323318?spm_id_from=333.337.0.0)
 
