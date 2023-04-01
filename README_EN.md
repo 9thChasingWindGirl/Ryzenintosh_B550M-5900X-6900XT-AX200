@@ -60,7 +60,7 @@ The file “configooo.plist” removes "-v" and OpenCore menus,“configvp.plist
 **！：** Recommended for initial use “configvp.plist”（**rename “configvp.plist” to “config.plist”**）
 
 ### Platforminfo
-Change the product model name you need and generate serianumber.
+Change the product model name you need and generate seria number.
 
 ## Usage
 1. Sleep is not turned on；
@@ -68,7 +68,7 @@ Change the product model name you need and generate serianumber.
 3. Bluetooth cannot transfer files；
 4. Continuous intercommunication cameras require wired connection.
 
-# The updated EFI file is downloaded in Release
+# The updated EFI file is downloaded in [Release](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/releases)
 
 ## Related Links
 1. [https://dortania.github.io/getting-started/（opencore documents）](https://dortania.github.io/getting-started/)
