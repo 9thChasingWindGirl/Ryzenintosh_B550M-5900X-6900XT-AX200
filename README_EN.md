@@ -22,10 +22,11 @@
 * SSDT-CPUR.aml
 * SSDT-EC-USBX.aml
 * SSDT-SBUS-MCHC.aml
+* SSDT-PLUG_RYZEN.aml
 ### DP/deviceproperties
-* Ethernet Built-in（Different motherboards need to modify the pci device address, which can be deleted if it is troublesome）：PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x2)/Pci(0x3,0x0)/Pci(0x0,0x0)
+* ~~Ethernet Built-in（Different motherboards need to modify the pci device address, which can be deleted if it is troublesome）：PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x2)/Pci(0x3,0x0)/Pci(0x0,0x0)~~
 * 5700xt to W5700X（Necessary to modify the address of the pci device, but it can be deleted if it is troublesome）：
-* PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
+PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
 ### Kernel
 1. Lilu.kext
 2. VirtualSMC.kext
@@ -43,8 +44,9 @@
 14. HibernationFixup.kext
 15. AMDRyzenCPUPowerManagement.kext *！
 16. SMCAMDProcessor.kext *！
-17. RadeonSensor.kext *！
-18. SMCRadeonGPU.kext *！
+17. SMCSuperIO.kext
+18. RadeonSensor.kext *！
+19. SMCRadeonGPU.kext *！
 
 # *！*：
 1. AMDRyzenCPUPowerManagement.kext、SMCAMDProcessor.kext、[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.1/AMD.Power.Gadget.app.zip) need to be used together；
