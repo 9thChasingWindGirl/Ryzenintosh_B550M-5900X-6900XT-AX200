@@ -1,4 +1,4 @@
-# OPENCORE Version 0.9.0
+# OPENCORE Version 0.9.5
 ## Language
 - [简体中文](/README.md)
 - **English**
