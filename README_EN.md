@@ -57,7 +57,7 @@ PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
 
 # *！*：
 1. AMDRyzenCPUPowerManagement.kext、~~SMCAMDProcessor.kext~~、[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.1/AMD.Power.Gadget.app.zip) need to be used together；
-2. RadeonSensor.kext、SMCRadeonGPU.kext、[RadeonGadget.app](https://github.com/aluveitie/RadeonSensor/releases/download/0.3.3/RadeonSensor-0.3.3.zip) need to be used together.
+2. RadeonSensor.kext、SMCRadeonGPU.kext、[RadeonGadget.app](https://github.com/ChefKissInc/RadeonSensor/releases) need to be used together.
 
 #### Kernel-Patch
 Beginning with “algrey - Force cpuid_cores_per_package” had been modified to 5900X；
