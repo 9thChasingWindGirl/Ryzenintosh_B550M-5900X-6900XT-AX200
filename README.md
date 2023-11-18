@@ -55,7 +55,7 @@
 
 # *！*：
 1. AMDRyzenCPUPowerManagement.kext和~~SMCAMDProcessor.kext~~配合[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.1/AMD.Power.Gadget.app.zip)使用；
-2. RadeonSensor.kext和SMCRadeonGPU.kext配合[RadeonGadget.app](https://github.com/aluveitie/RadeonSensor/releases/download/0.3.3/RadeonSensor-0.3.3.zip)使用。
+2. RadeonSensor.kext和SMCRadeonGPU.kext配合[RadeonGadget.app](https://github.com/ChefKissInc/RadeonSensor/releases)使用。
 
 #### 内核驱动-补丁（Kernel-Patch）
 “algrey - Force cpuid_cores_per_package”开头的四个条目已修改为5900X；
