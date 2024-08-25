@@ -1,4 +1,4 @@
- # OPENCORE 版本 1.0.1
+  # OPENCORE 版本 1.0.1
 ## 转换语言
 - **简体中文**
 - [English](/README_EN.md)
@@ -55,7 +55,7 @@
 
 # *！*：
 1. AMDRyzenCPUPowerManagement.kext和SMCAMDProcessor.kext配合[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases)使用；
-2. RadeonSensor.kext和SMCRadeonGPU.kext配合~~RadeonGadget.app~~使用； （RadeonGadget出了错误，已经提交issue了）
+2. SMCRadeonSensors.kext配合[stats.app](https://github.com/exelban/stats/releases)使用； 
 3. AirportItlwm.kext替换为itlwm.kext，需要搭配[HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases)使用
 
 #### 内核驱动-补丁（Kernel-Patch）
