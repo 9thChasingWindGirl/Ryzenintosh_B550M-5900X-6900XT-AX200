@@ -1,4 +1,4 @@
-# OPENCORE 版本 0.9.5
+ # OPENCORE 版本 1.0.1
 ## 转换语言
 - **简体中文**
 - [English](/README_EN.md)
@@ -11,9 +11,9 @@
 
 -------
 
-> 目前运行系统版本：macOS Sonoma 14.0
+> 目前运行系统版本：macOS Sonoma 14.6.1
 
-![image](/38dab3785f76a621c704c856d8cad66.jpg)
+![image](/1724592590610.jpg)
 
 -------
 
@@ -35,7 +35,8 @@
 3. AppleMCEReporterDisabler.kext
 4. ~~WhateverGreen.kext~~ NootRX.kext *！
 5. AppleALC.kext
-6. AirportItlwm.kext
+6. - [ ] AirportItlwm.kext
+   - [x] itlwm.kext *！[由于iMessage 和相关服务无法与 AirportItlwm.kext 协同工作，请改用 itlwm.kext 或内置 NIC 作为主要设备](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.3.0)
 7. BlueToolFixup.kext
 8. IntelBluetoothFirmware.kext
 9. IntelBTPatcher.kext
@@ -46,16 +47,16 @@
 14. LucyRTL8125Ethernet.kext
 15. HibernationFixup.kext
 16. AMDRyzenCPUPowerManagement.kext *！
-17. ~~SMCAMDProcessor.kext~~
+17. SMCAMDProcessor.kext
 18. SMCSuperIO.kext
-19. SMCRadeonGPU.kext *！
-20. RadeonSensor.kext *！
-21. USBPorts.kext
-22. XHCI-unsupported.kext
+19. SMCRadeonSensors.kext *！
+20. USBPorts.kext
+21. XHCI-unsupported.kext
 
 # *！*：
-1. AMDRyzenCPUPowerManagement.kext和~~SMCAMDProcessor.kext~~配合[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.1/AMD.Power.Gadget.app.zip)使用；
-2. RadeonSensor.kext和SMCRadeonGPU.kext配合[RadeonGadget.app](https://github.com/ChefKissInc/RadeonSensor/releases)使用。
+1. AMDRyzenCPUPowerManagement.kext和SMCAMDProcessor.kext配合[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases)使用；
+2. RadeonSensor.kext和SMCRadeonGPU.kext配合~~RadeonGadget.app~~使用； （RadeonGadget出了错误，已经提交issue了）
+3. AirportItlwm.kext替换为itlwm.kext，需要搭配[HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases)使用
 
 #### 内核驱动-补丁（Kernel-Patch）
 “algrey - Force cpuid_cores_per_package”开头的四个条目已修改为5900X；
@@ -76,7 +77,7 @@ PAT patch方式在该引导文件中使用Shaneee的补丁（解决infuse低帧�
 3. ~~蓝牙文件传送无法使用；~~
 4. 连续互通相机需有线连接。
 
-# 更新的引导文件在[Release](https://github.com/YUANJIANGWANGYU/Ryzenintosh_B550M-5900X-5700XT-AX200/releases)下载
+# 更新的引导文件在[Release](https://github.com/9thChasingWindGirl/Ryzenintosh_B550M-5900X-6900XT-AX200/releases)下载
 
 ## 相关链接
 1. [https://dortania.github.io/getting-started/（opencore官方指导）](https://dortania.github.io/getting-started/)
