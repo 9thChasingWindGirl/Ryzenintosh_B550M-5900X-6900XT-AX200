@@ -57,7 +57,7 @@ PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
 
 # *！*：
 1. AMDRyzenCPUPowerManagement.kext、SMCAMDProcessor.kext、[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases) need to be used together；
-2. RadeonSensor.kext、SMCRadeonGPU.kext、~~RadeonGadget.app~~ need to be used together.(RadeonGadget seems to have some errors, issue has been submitted)
+2. SMCRadeonSensors.kext、[stats.app](https://github.com/exelban/stats/releases) need to be used together.
 3. AirportItlwm.kext replaced with itlwm.kext，needs to be used with [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases)。
 
 #### Kernel-Patch
