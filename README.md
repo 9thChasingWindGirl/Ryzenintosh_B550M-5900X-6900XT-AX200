@@ -5,7 +5,7 @@
 ## 硬件情况
 * 主板：华硕 TUF GAMING B550M-ZAKU (WI-FI)
 * 处理器：AMD Ryzen9 5900X
-* 显卡：~~撼讯 AMD 5700XT~~ AMD Radeon™ RX 6900 XT 16G TOXIC 毒药 OC 限量版
+* 显卡：AMD Radeon™ RX 6900 XT 16G TOXIC 毒药 OC 限量版
 * 内存条：七彩虹 8GB ddr4 3200 X4
 * 无线网卡：板载英特尔AX200
 
