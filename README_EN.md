@@ -5,7 +5,7 @@
 ## Hardware Info
 * Motherboard：ASUS TUF GAMING B550M-ZAKU (WI-FI)
 * CPU：AMD Ryzen9 5900X
-* GPU：~~POWERColor AMD 5700XT~~ TOXIC AMD Radeon™ RX 6900 XT Limited Edition
+* GPU：TOXIC AMD Radeon™ RX 6900 XT Limited Edition
 * RAM：COLORFUL 8GB ddr4 3200 X4
 * Wireless：Intel AX200 onboard
 
