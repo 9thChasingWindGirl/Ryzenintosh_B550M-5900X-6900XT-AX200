@@ -1,4 +1,4 @@
-# OPENCORE Version 0.9.5
+# OPENCORE Version 1.0.1
 ## Language
 - [简体中文](/README.md)
 - **English**
@@ -11,9 +11,9 @@
 
 -------
 
-> Currently System Version：macOS Sonoma 14.0
+> Currently System Version：macOS Sonoma 14.6.1
 
-![image](/38dab3785f76a621c704c856d8cad66.jpg)
+![image](/1724592590610.jpg)
 
 -------
 
@@ -37,7 +37,8 @@ PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
 3. AppleMCEReporterDisabler.kext
 4. ~~WhateverGreen.kext~~ NootRX.kext *！
 5. AppleALC.kext
-6. AirportItlwm.kext
+6. - [ ] AirportItlwm.kext
+   - [x] itlwm.kext *！[iMessage and related services will not work OOB with AirportItlwm.kext, use itlwm.kext or a builtin NIC as the primary device instead](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.3.0)
 7. BlueToolFixup.kext
 8. IntelBluetoothFirmware.kext
 9. IntelBTPatcher.kext
@@ -50,14 +51,14 @@ PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
 16. AMDRyzenCPUPowerManagement.kext *！
 17. ~~SMCAMDProcessor.kext~~
 18. SMCSuperIO.kext
-19. SMCRadeonGPU.kext *！
-20. RadeonSensor.kext *！
-21. USBPorts.kext
-22. XHCI-unsupported.kext
+19. SMCRadeonSensors.kext *！
+20. USBPorts.kext
+21. XHCI-unsupported.kext
 
 # *！*：
-1. AMDRyzenCPUPowerManagement.kext、~~SMCAMDProcessor.kext~~、[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.1/AMD.Power.Gadget.app.zip) need to be used together；
-2. RadeonSensor.kext、SMCRadeonGPU.kext、[RadeonGadget.app](https://github.com/ChefKissInc/RadeonSensor/releases) need to be used together.
+1. AMDRyzenCPUPowerManagement.kext、SMCAMDProcessor.kext、[AMD.Power.Gadget.app](https://github.com/trulyspinach/SMCAMDProcessor/releases) need to be used together；
+2. RadeonSensor.kext、SMCRadeonGPU.kext、~~RadeonGadget.app~~ need to be used together.(RadeonGadget seems to have some errors, issue has been submitted)
+3. AirportItlwm.kext replaced with itlwm.kext，needs to be used with [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases)。
 
 #### Kernel-Patch
 Beginning with “algrey - Force cpuid_cores_per_package” had been modified to 5900X；
