@@ -13,11 +13,11 @@
 
 > 目前运行系统版本：macOS Sonoma 14.6.1
 
-![image](/1724592590610.jpg)
+![image](/sysinfo.jpg)
 
 -------
 
-![image](/2023-10-21%2017.18.46.png)
+![image](/desktop.png)
 
 ## 引导说明
 ### 电源管理（ACPI）
