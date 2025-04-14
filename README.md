@@ -1,4 +1,4 @@
-  # OPENCORE 版本 1.0.1
+# OPENCORE 版本 1.0.1
 ## 转换语言
 - **简体中文**
 - [English](/README_EN.md)
