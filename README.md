@@ -13,11 +13,11 @@
 
 > 目前运行系统版本：macOS Sonoma 14.6.1
 
-![image](/sysinfo.jpg)
+[![sysinfo](https://img.moonisland.dpdns.org/sysinfo.jpg "sysinfo")](https://img.moonisland.dpdns.org/sysinfo.jpg "sysinfo")
 
 -------
 
-![image](/desktop.png)
+[![desktop](https://img.moonisland.dpdns.org/desktop.png "sysinfo")](https://img.moonisland.dpdns.org/desktop.png "desktop")
 
 ## 引导说明
 ### 电源管理（ACPI）
